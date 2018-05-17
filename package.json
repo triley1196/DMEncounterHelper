@@ -1,0 +1,30 @@
+{
+  "name": "triley1196.github.io",
+  "version": "1.0.0",
+  "description": "A DM helper for organizing and runing D&D encounters",
+  "main": "/docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triley1196/triley1196.github.io.git"
+  },
+  "keywords": [
+    "D&D",
+    "Encounter",
+    "DM"
+  ],
+  "author": "Trevor Riley",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/triley1196/triley1196.github.io/issues"
+  },
+  "homepage": "https://github.com/triley1196/triley1196.github.io#readme",
+  "dependencies": {
+    "edit-json-file": "^1.0.8"
+  }
+}
