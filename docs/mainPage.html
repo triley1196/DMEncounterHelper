@@ -186,7 +186,7 @@
                     wis: inputs[12].value,
                     cha: inputs[13].value
                 }
-                $.getJSON('/Users/RileyTA1/Desktop/D&D/DnD_DM_App/CreatureData.json', function(data){
+                $.getJSON('https://github.com/triley1196/DMEncounterHelper/blob/master/data/CreatureData.json', function(data){
                     data.push(creature);
                 });
                 for(var i = 0; i < inputs.length; i++){
