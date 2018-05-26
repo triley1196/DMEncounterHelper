@@ -1,0 +1,44 @@
+body {
+    background-color: #444;
+}
+
+.nav-tabs {
+    background-color: rgb(65, 0, 0);
+}
+
+.nav-tabs li {
+    width: 16%;
+    text-align: center;
+    padding-top: 20px;
+    height: 65px;
+    
+}
+
+.nav-tabs li a {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration-line: none;
+}
+
+.nav-tabs li:hover {
+    background-color: rgb(70, 14, 14);
+}
+
+.nav-tabs li:active {
+    background-color: rgb(88, 27, 27);
+}
+
+.imglogo {
+       
+    background-color: rgb(65, 0, 0);
+    width: 65px;
+    height: 65px;
+    padding: none;
+}
+
+.form-control {
+    border: 2px solid black ;
+    border-radius: 0;
+    height: 20px;
+}

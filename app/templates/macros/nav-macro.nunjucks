@@ -1,0 +1,14 @@
+{% macro active(activePage='home') %}
+<div class="form-horizontal">
+      <!-- <div class="form-group" style="width: 50%;"> -->
+        <ul class="nav nav-tabs form-group">
+                <img src="data/logo.png" class="imglogo form-control-addon col-sm-2" />
+                <li class="{%if activePage == 'home' %} active {% endif %}"><a href="{% if activePage != 'home' %}./index.html{% else %}#{% endif %}">Home</a></li>
+                <li class="{%if activePage == 'encounters' %} active {% endif %}"><a href="{% if activePage != 'encounters' %}./encounters.html{% else %}#{% endif %}">Encounters</a></li>
+                <li class="{%if activePage == 'creatures' %} active {% endif %}"><a href="{% if activePage != 'creatures' %}./creatures.html{% else %}#{% endif %}">Creatures</a></li>
+                <li class="{%if activePage == 'abilities' %} active {% endif %}"><a href="{% if activePage != 'abilities' %}./abilities.html{% else %}#{% endif %}">Abilities</a></li>
+                <li class="{%if activePage == 'effects' %} active {% endif %}"><a href="{% if activePage != 'effects' %}./effects.html{% else %}#{% endif %}">Effects</a></li>
+        </ul>
+      </div>
+    </div>
+{% endmacro %}
